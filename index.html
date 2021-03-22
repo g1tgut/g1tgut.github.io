@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>G1thut</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link href="pg/1.ico" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+	<h1 class="h1">Как поставить сайт на github?</h1>
+	<div class="side-panel"></div>
+	<hr class="hr">
+	<div><a href="#step1" class="st1">1шаг</a></div>
+	<div><a href="#step2" class="st2">2шаг</a></div>
+	<div><a href="#step3" class="st3">3шаг</a></div>
+	<div><a href="#step4" class="st4">4шаг</a></div>
+
+	<iframe class="frame"></iframe>
+	<img class ="manager" src="pg/callback.png" >
+	<a class="messege1" href=""></a>
+	<a class="messege2" href=""></a>
+	<a class="messege3" href=""></a>
+	<a class="messege4" href=""></a>
+	<button id="btn1" onclick='chang()'>Инвертировать цвета</button>
+	<button id="btn2" onclick='ching()'>Инвертировать цвета</button>
+
+
+
+
+
+
+
+
+	<big><big><pre class="article" id="article">
+	  Эта статья о том как очень быстро запустить свой сайт.Сервис Github 
+	предоставляет вам свои возможности свой хостинг,свой домен бесплатно!
+	В наше время сайты играют значительную роль в нашей жизни.Они развлекают,
+	обучают.Это хороший способ донести до людей какую-либо информацию.
+	      Итак приступим!</pre></big></big>
+	<img class ="scr1" src="pg/scr4.png" >
+	<big><h1><pre class="step1" id="step1">Шаг 1</pre></h1></big>
+	<br><big><big><pre class="text1">
+	   Регистрация на Github занимает неотьемлемую часть постановки сайта.
+	При регистрации в поле "username" введите имя которое будет использоватся 
+	в качестве названия для хостинга.Далее вводите свою почту, придумайте пароль 
+	и пройдите капчу.Подтвердите почту.
+			Учетная запись создана!</pre></big></big>
+
+	<big><h1><pre class="step2" id="step2">Шаг 2</pre></h1></big>
+	<br><big><big><pre class="text2">
+	  Далее мы создаем так называемый репозиторий в котором и будет хранится наш сайт.
+	</pre></big></big>
+	<img class ="scr2" src="pg/scr3.png" >
+	<big><big><pre class="text3">
+	  В блоке «Your repositories» нажимаем кнопку «New repository».Открывается окно создания.
+	Теперь нужно заполнить параметры.В поле "Repository name" пишем свой username 
+	и дописываем к нему ".github.io" это и будет нашей будущей ссылкой.
+	Строка "Description" заполняется по желанию.Далее ставим отметку "Public" и "Create Readme".
+	Подтверждаем создание.
+			Репозиторий создан!</pre></big></big>
+	<img class ="scr3" src="pg/scr2.png" >
+	<big><h1><pre class="step3" id="step3">Шаг 3</pre></h1></big>
+	<big><big><pre class="text4">
+	  Репозиторий создан и можно приступить к настройке содержимого сайта для этого всего лишь 
+	нужно вгрузить файл гиперразметки и другие дополнительные файлы.Нажимаем на кнопку "Add file" 
+	и перетаскиваем нужные файлы в окно браузера или приложения.Нажимаем  кнопку "Commit changes".
+	</pre></big></big>
+	<img class ="scr4" src="pg/scr1.png" >
+	<big><h1><pre class="step4" id="step4">Шаг 4</pre></h1></big>
+	<big><big><pre class="text5">
+		  Готово!!!Сайт создан.Чтобы попасть на сайт нужно просто вбить в поисковую строку браузера 
+		"https://username.github.io/". Наслаждаемся...
+	</pre></big></big>
+</body>
+<script type="text/javascript">
+	function chang(){
+		document.querySelector("body").style.background = '#f2f2f2';
+		document.querySelector("body").style.color = '#121212';
+		document.querySelector(".hr").style.background = 'black';
+		document.querySelector("#btn2").style.display = 'flex';
+		document.querySelector("#btn1").style.display = 'none';
+	}
+	function ching(){
+		document.querySelector("body").style.background = '#121212';
+		document.querySelector("body").style.color = '#f2f2f2';
+		document.querySelector(".hr").style.background = '#f2f2f2';
+		document.querySelector("#btn1").style.display = 'flex';
+		document.querySelector("#btn2").style.display = 'none';
+	}
+</script>
+</html>
