@@ -86,8 +86,8 @@ body{
 	background: #9933cc;
 	box-shadow: 0 0 5px #9933cc,
 	            0 0 15px #9933cc,
-                0 0 50px  #9933cc,
-                0 0 25px #9933cc;
+                    0 0 50px  #9933cc,
+                    0 0 25px #9933cc;
 }
 #btn2{
 	position: fixed;
@@ -107,8 +107,8 @@ body{
 	background: #9933cc;
 	box-shadow: 0 0 5px #9933cc,
 	            0 0 15px #9933cc,
-                0 0 50px  #9933cc,
-                0 0 25px #9933cc;
+                    0 0 50px  #9933cc,
+                    0 0 25px #9933cc;
 }
 div a{
 	position:fixed;
@@ -304,8 +304,8 @@ div a:hover{
 	background: #9933cc;
 	box-shadow: 0 0 5px #9933cc,
 	            0 0 15px #9933cc,
-                0 0 50px  #9933cc,
-                0 0 25px #9933cc;
+                    0 0 50px  #9933cc,
+                    0 0 25px #9933cc;
 }
 .hr2{
 	height: 1px;
